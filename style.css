@@ -14,6 +14,20 @@ html
     text-rendering: optimizeLegibility;
 }
 
+.logo
+{
+    height: 140px;
+    width: auto;
+    padding: 20px;
+}
+
+.navigation
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 .header
 {
     background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('OmnifoodContents/hero.jpg');
