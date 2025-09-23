@@ -4,3 +4,15 @@
     box-sizing: border-box;
 }
 
+.row {
+    max-width: 1140;
+    margin: 0 auto;
+}
+
+.hero-text-box {
+    width: 1140px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
