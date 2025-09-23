@@ -19,13 +19,33 @@ html
     height: 140px;
     width: auto;
     padding: 20px;
+
 }
 
 .navigation
 {
     display: flex;
-    flex-direction: row;
+    float: right;
+    list-style: none;
     justify-content: space-between;
+    margin-top: 52px;
+}
+
+.nav-link
+{
+    margin: 0 20px;
+    
+}
+.nav-link a
+{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-link a:hover
+{
+    border-bottom: 2px solid #e67e22;
+    padding-bottom: 8px;
 }
 
 .header
@@ -37,7 +57,7 @@ html
 }
 
 .row {
-    max-width: 1140;
+    max-width: 77%;
     margin: 0 auto;
 }
 
