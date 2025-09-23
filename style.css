@@ -29,12 +29,14 @@ html
     float: right;
     list-style: none;
     justify-content: space-between;
-    margin-top: 52px;
+    margin-top: 58px;
+    font-size: 90%;
+    align-items: center;
 }
 
 .nav-link
 {
-    margin: 0 20px;
+    margin: 0 24px;
     
 }
 .nav-link a
@@ -53,6 +55,7 @@ html
 {
     background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('OmnifoodContents/hero.jpg');
     background-size: cover;
+    background-position: center;
     height: 100vh;
     background-attachment: fixed;
 }
