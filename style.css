@@ -132,7 +132,7 @@ h2::after{
     margin: 30px auto;
 }
 
-.features h3{
+h3{
     font-size: 20pt;
     font-weight: 395;
     margin-bottom: 20px;
@@ -261,8 +261,16 @@ h2::after{
 
 .icon-locations
 {
-    display:block;
+    float: left;
+    margin-right: 10px;
     color: #e67e22;
+    line-height: 1.5;
+}
+
+.loco-p
+{
+    padding: 4px;
+    font-size: 20px !important;
 }
 
 .icon-socials
@@ -272,5 +280,5 @@ h2::after{
 
 .city-img
 {
-    width: 14%;
+    width: 100%;
 }
