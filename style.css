@@ -153,6 +153,33 @@ html
     width: 250px;
 }
 
+.meal-container{
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    background-color: black;
+}
+
+.meal-box{
+    width: 25%;
+    aspect-ratio: 4/3;
+    overflow: hidden;
+}
+
+.meal-img{
+    width: 100%;
+    opacity: .7;
+    transform: scale(1.15);
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.meal-img:hover{
+    opacity: 1;
+    transform: scale(1.00);
+}
+
 .features-icon{
 
 }
