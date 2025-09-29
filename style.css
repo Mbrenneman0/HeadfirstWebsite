@@ -145,17 +145,17 @@ h2::after{
     line-height: 1.5;
 }
 
-.features-box p
+.box p
 {
     font-size: 18px;
 }
 
-.features-container{
+.flex-container{
     display: flex;
     justify-content: center;
 }
 
-.features-box{
+.box{
     margin: 20px;
     width: 250px;
 }
@@ -200,6 +200,7 @@ h2::after{
 
 .how-img{
     width: 50%;
+    margin-top: 30px;
     text-align: right;
 }
 
@@ -212,8 +213,7 @@ h2::after{
     margin-top: 70px;
     padding-left: 3%;
     width: 50%;
-    display: flex;
-    flex-direction: column;
+    display: block;
 }
 
 .how-row{
@@ -223,17 +223,28 @@ h2::after{
 
 .how-number{
     margin-right: 25px;
-    border: solid 2px #e67e22;
+    border: 2px solid #e67e22;
     border-radius: 50%;
     text-align: center;
+    float: left;
 }
 
 .how-number p{
     width: 55px;
     height: 55px;
-    padding: 5px;
+    padding: 7px;
     font-size: 150%;
     color: #e67e22;
+}
+
+.btn-app-row{
+
+}
+
+.btn-app img{
+    height: 50px;
+    width: auto;
+    margin-right: 10px;
 }
 
 .features-icon{
