@@ -346,11 +346,14 @@ h3{
     font-size: 40pt !important;
     font-weight: 100;
     color: #e67e22;
+    margin-bottom: 5px;
 }
 
-price-p{
+.price-p{
     font-size: 20px !important;
     padding: 4px;
+    line-height: 1.5;
+
 }
 
 .price span{
@@ -365,7 +368,17 @@ price-p{
 
 .citySec
 {
-    margin: 20px 0 60px !important;
+    /* margin: 0 0 60px !important; */
+    padding: 100px;
+    background-color: #f5f5f5;
+    width: 100%;
+    /* margin-bottom: 80px; */
+}
+
+.citySec h2
+{
+    margin-top: 5px;
+    margin-bottom: 20px;
 }
 
 ul
@@ -389,3 +402,28 @@ li::before
     margin-right: 10px;
     color: #e67e22;
     line-height: 1.5;
+}
+.subBox
+{
+    background-color: #fcfcfc;
+    margin: auto;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.content-separator::before
+{
+    content: "";
+    display: block;
+    height: 1px;
+    background-color: #e8e8e8;
+    margin: 10px 0;
+    width: 100%;
+    
+}
+
+.subBtn
+{
+    margin-left: 65px;
+    margin-top: 15px;
+}
