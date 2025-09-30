@@ -273,11 +273,6 @@ h3{
     font-size: 20px !important;
 }
 
-.icon-socials
-{
-
-}
-
 .city-img
 {
     width: 100%;
@@ -348,7 +343,7 @@ h3{
     color: #e67e22;
 }
 
-price-p{
+.price-p{
     font-size: 20px !important;
     padding: 4px;
 }
@@ -389,3 +384,66 @@ li::before
     margin-right: 10px;
     color: #e67e22;
     line-height: 1.5;
+}
+
+.contact{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.contact-row{
+    margin: 1% 0;
+    height: fit-content;
+    display: flex;
+}
+
+
+.label-row{
+    width: 34%;
+    font-size: 100%;
+}
+
+.input-row{
+    width: 66%;
+}
+
+input[type=text],
+input[type=email],
+select,
+textarea {
+    width: 100%;
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    font-size: 100%;
+}
+
+textarea{
+    height: 100px;
+}
+
+input[type=checkbox]{
+    margin: 10px 5px 10px 0;
+}
+
+*:focus{
+    outline: none;
+}
+
+footer{
+    background-color: #555;
+    color: #888;
+}
+
+.links-row{
+    display: flex;
+}
+
+.left-links a, a:visited, a:active{
+    text-decoration: none;
+    color: #888;
+}
+
+.icon-socials{
+    color: #888;
+}
