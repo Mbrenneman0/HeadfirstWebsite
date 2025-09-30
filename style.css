@@ -477,9 +477,34 @@ footer{
     display: flex;
 }
 
-.left-links a, a:visited, a:active{
+.left-links a, .left-links a:visited, .left-links a:active{
     text-decoration: none;
     color: #888;
+}
+
+.left-links a:hover{
+    color: #ddd;
+}
+
+.twitter:hover{
+    transition: color 0.2s;
+    color: #55acee;
+
+}
+
+.facebook:hover{
+    transition: color 0.2s;
+    color: #3b5998;
+}
+
+.google:hover{
+    transition: color 0.2s;
+    color: #ff4b11;
+}
+
+.instagram:hover{
+    transition: color 0.2s;
+    color: #bc2a8d;
 }
 
 .icon-socials{
