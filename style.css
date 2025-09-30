@@ -296,7 +296,7 @@ h3{
     display: flex;
     max-width: 1140px;
     margin: 0 auto;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 .testimonial h2{
@@ -318,6 +318,7 @@ h3{
 
 .testimonial blockquote{
     padding: 2%;
+    margin: 10 0 10 20;
     font-style: italic;
     line-height: 145%;
     position: relative;
@@ -342,5 +343,17 @@ h3{
 
 .price
 {
-    
+    font-size: 40pt !important;
+    font-weight: 100;
+    color: #e67e22;
+}
+
+.price span{
+    font-size: 30%;
+    font-weight: 300;
+}
+
+.blank-p::before{
+    content: " ";
+    white-space: pre;
 }
