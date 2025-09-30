@@ -296,7 +296,7 @@ h3{
     display: flex;
     max-width: 1140px;
     margin: 0 auto;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 .testimonial h2{
@@ -318,6 +318,7 @@ h3{
 
 .testimonial blockquote{
     padding: 2%;
+    margin: 10 0 10 20;
     font-style: italic;
     line-height: 145%;
     position: relative;
@@ -342,8 +343,20 @@ h3{
 
 .price-p
 {
+    font-size: 40pt !important;
+    font-weight: 100;
+    color: #e67e22;
     padding: 4px;
-    font-size: 20px !important;
+}
+
+.price span{
+    font-size: 30%;
+    font-weight: 300;
+}
+
+.blank-p::before{
+    content: " ";
+    white-space: pre;
 }
 
 .citySec
@@ -372,4 +385,3 @@ li::before
     margin-right: 10px;
     color: #e67e22;
     line-height: 1.5;
-}
