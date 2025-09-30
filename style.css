@@ -340,7 +340,36 @@ h3{
     display: block;
 }
 
-.price
+.price-p
 {
-    
+    padding: 4px;
+    font-size: 20px !important;
+}
+
+.citySec
+{
+    margin: 20px 0 60px !important;
+}
+
+ul
+{
+    list-style-type: none;
+    white-space: nowrap;
+}
+li
+{
+    display: list-item;
+}
+li::before
+{
+    content: " ";
+    white-space: pre;
+}
+
+.icon-list
+{
+    float: left;
+    margin-right: 10px;
+    color: #e67e22;
+    line-height: 1.5;
 }
