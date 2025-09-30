@@ -341,11 +341,15 @@ h3{
     display: block;
 }
 
-.price-p
+.price
 {
     font-size: 40pt !important;
     font-weight: 100;
     color: #e67e22;
+}
+
+price-p{
+    font-size: 20px !important;
     padding: 4px;
 }
 
