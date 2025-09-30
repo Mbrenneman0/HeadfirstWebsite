@@ -283,6 +283,63 @@ h3{
     width: 100%;
 }
 
+.testimonial{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url('OmnifoodContents/back-customers.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    padding: 80px 0;
+}
+
+.testimonial-container{
+    display: flex;
+    max-width: 1140px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.testimonial h2{
+    margin: 0 auto;
+}
+
+.testimonial-box{
+    width: 30%;
+}
+
+.testimonial blockquote:before{
+    content: "\201C";
+    font-size: 500%;
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+}
+
+.testimonial blockquote{
+    padding: 2%;
+    font-style: italic;
+    line-height: 145%;
+    position: relative;
+    margin-top: 40px;
+}
+
+.testimonial img{
+    border-radius: 50%;
+    height: 45px;
+    vertical-align: middle;
+    display: inline;
+}
+
+.testimonial p{
+    display: inline;
+}
+
+.testimonial cite{
+    margin-top: 40px;
+    display: block;
+}
+
 .price
 {
     
