@@ -490,6 +490,11 @@ footer{
     color: #ddd;
 }
 
+footer li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
 .twitter:hover{
     transition: color 0.2s;
     color: #55acee;
@@ -513,10 +518,17 @@ footer{
 
 .icon-socials{
     color: #888;
+    font-size: 150%;
 }
 
 .copyRight
 {
     text-align: center;
     margin-top: 20px;
+}
+
+footer a
+{
+    /* margin-right: 20px; */
+    display: inline-block;
 }
