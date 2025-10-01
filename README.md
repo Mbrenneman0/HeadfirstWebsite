@@ -1,1 +1,1 @@
-Authos: Mike Brenneman, Doan Nguyen
+Authors: Mike Brenneman, Doan Nguyen
